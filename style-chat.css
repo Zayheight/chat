@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Kanit:wght@100;200;300&family=Poppins:wght@100;300&display=swap%22");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap%22") ;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Kanit', sans-serif;
+  }
+
+.container-chat{
+    max-width: 550px;
+    width: 90%;
+    padding: 50px;
+    margin: 17px auto 0 auto;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: .2s ease;
+}
+
+
+h1.text-head{
+    margin: 0;
+    text-align: center;
+}
+
+.container-chat label{
+    display: block;
+    margin: 20px 0;
+}
+
+.container-chat input,textarea{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid #d3d3d3;
+
+}
+
+.container-chat input[type="text"]:focus, textarea:focus{
+    border-bottom: 1px solid #49c4b2;
+}
+
+.container-chat textarea::-webkit-scrollbar{
+    width: 3px;
+    
+}
+
+.container-chat textarea::-webkit-scrollbar-thumb{
+    background-color: #49c4b2;
+}
+
+
+
+.btn-submitchat{
+    text-align: center;
+}
+
+.container-chat input[type="submit"]{
+    margin-top: 30px;
+    width: 90%;
+    max-width: 40%;
+    background: linear-gradient(to right,#cef4be ,#1c7f70);
+    color: #000;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+
+
+/* button*/
+
+  
+.btn-submitchat .btn{
+    margin-top: 30px;
+
+    background: linear-gradient(to right,#eaf4be ,#18766b);
+    padding: 10px 40px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    color: black;            
+    border: 0px;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 30px;
+    }         
+    .btn-submitchat .btn:hover{
+       background-position: right center; /* change the direction of the change here */
+       color: #fff;
+       text-decoration: none;
+       background: linear-gradient(to right,#18766b ,#cef4be);
+    }
